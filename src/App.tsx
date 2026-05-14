@@ -1,4 +1,5 @@
 import { useState, useCallback, useId } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { AmortizationRow, calculateKPR, type TenorRow } from './calculator';
 import { ResultSection } from './components/ResultSection';
 
@@ -134,6 +135,7 @@ export default function App() {
         {/* Result */}
         {result && <ResultSection rows={result} principal={principal} tenorYears={tenors.length} />}
       </main>
+      <Analytics />
     </div>
   );
 }
