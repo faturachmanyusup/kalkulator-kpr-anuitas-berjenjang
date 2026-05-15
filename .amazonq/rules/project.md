@@ -3,7 +3,7 @@
 Single Page Application — KPR (mortgage) calculator with annuity interest scheme and tiered tenor.
 
 ## Tech Stack
-- React 18 + TypeScript (strict mode) + Vite
+- React 19 + TypeScript 6 (strict mode) + Vite 8
 - Tailwind CSS v3
 - xlsx (export to XLSX)
 - jspdf + jspdf-autotable (export to PDF)
