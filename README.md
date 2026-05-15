@@ -24,8 +24,8 @@ Single Page Application kalkulator KPR (Kredit Pemilikan Rumah) dengan skema bun
 
 ## Tech Stack
 
-- **React 18** + **TypeScript** (strict mode)
-- **Vite**
+- **React 19** + **TypeScript 6** (strict mode)
+- **Vite 8**
 - **Tailwind CSS v3**
 - **xlsx** — export ke XLSX
 - **jsPDF** + **jspdf-autotable** — export ke PDF
